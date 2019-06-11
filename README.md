@@ -1,6 +1,6 @@
 # Security-Checkup
 
-![home screenshot](/assets/images/screenshots/home.png)
+![home screenshot](/assets/images/screenshots/home)
 ![account screenshot](/assets/images/screenshots/account.png)
 ![password screenshot](/assets/images/screenshots/password.png)
 ![pwned screenshot](/assets/images/screenshots/pwned.png)
