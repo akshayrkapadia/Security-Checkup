@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Account Checkup</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body background="../assets/images/background.jpg" width="300" height="200">
+    <div style="margin-left: 35%; margin-right: 10%; margin-top: 5%; width: 300px;">
+      <img src="../assets/images/key.svg" width="200" height="150" style="margin-bottom: 10%;">
+      <input id="email-field" style="color:white" placeholder="Enter Email">
+      <button class="btn waves-effect waves-light green" id="send-btn" type="submit" name="action">Check
+              <i class="material-icons right">send</i>
+      </button>
+    </div>
+    <div>
+        <table id="breach-data" style="color: white; width: 50%; margin-top: 5%; margin-right: 10%; margin-left: 30%; text-align: center">
+        </table>
+    </div>
+    <a class="btn-floating btn-large waves-effect waves-light red" id="back" href="./index.html" style="margin-left: 90%; margin-top: 15%;"><i class="material-icons">arrow_back</i></a>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script src="./account_checker.js"></script>
+  </body>
+</html>
