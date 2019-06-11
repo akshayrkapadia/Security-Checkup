@@ -19,7 +19,7 @@ sendButton.addEventListener("click", function(e) {
     var url = "https://haveibeenpwned.com/api/v2/breachedaccount/" + email;
     var config = {
         headers: {
-            "user-agent": "Password Checker"
+            "user-agent": "Security Checkup"
         }
     };
     checkAccount(url, config);
