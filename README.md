@@ -1,5 +1,5 @@
 # Security-Checkup
-Account and Password Security Checker
+Simple GUI for https://haveibeenpwned.com
 
 ![home screenshot](/assets/images/screenshots/home.PNG)
 ![account screenshot](/assets/images/screenshots/account.PNG)
